@@ -54,7 +54,7 @@ bool HelloWorld::init()
     // add a label shows "Hello World"
     // create and initialize a label
     
-    auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
+    auto label = Label::createWithTTF("Hello World", "Resources/fonts/Marker Felt.ttf", 24);
     
     // position the label on the center of the screen
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
@@ -72,23 +72,23 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
 
-	Sprite *sp = Sprite::create();
-
-	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("fox@2x.plist");
-
-	Vector<SpriteFrame *> arr;
-	for (int i = 0; i < 29; i++)
-	{
-		SpriteFrame *pSpriteFrame = SpriteFrameCache::getInstance()->getSpriteFrameByName(String::createWithFormat("fox_column_%d.png", i)->getCString());
-		arr.pushBack(pSpriteFrame);
-	}
-
-	Animation *pAnim = Animation::createWithSpriteFrames(arr, 0.03f);
-	ActionInterval *pAction = Animate::create(pAnim);
-
-	sp->runAction(RepeatForever::create(pAction));
-	sp->setPosition(Vec2(568, 320));
-	this->addChild(sp, 2);
+// 	Sprite *sp = Sprite::create();
+// 
+// 	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("fox@2x.plist");
+// 
+// 	Vector<SpriteFrame *> arr;
+// 	for (int i = 0; i < 29; i++)
+// 	{
+// 		SpriteFrame *pSpriteFrame = SpriteFrameCache::getInstance()->getSpriteFrameByName(String::createWithFormat("fox_column_%d.png", i)->getCString());
+// 		arr.pushBack(pSpriteFrame);
+// 	}
+// 
+// 	Animation *pAnim = Animation::createWithSpriteFrames(arr, 0.03f);
+// 	ActionInterval *pAction = Animate::create(pAnim);
+// 
+// 	sp->runAction(RepeatForever::create(pAction));
+// 	sp->setPosition(Vec2(568, 320));
+// 	this->addChild(sp, 2);
 
     return true;
 }
