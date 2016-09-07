@@ -1,0 +1,160 @@
+<Solution>
+  <PropertyGroup Name="HappyAnimal" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="SceneBegin.csd" Type="Scene" />
+        <Folder Name="Resources">
+          <Folder Name="materials">
+            <PlistImageFolder Image="logo@2x.png" PListFile="logo@2x.plist" Name=".logo@2x_PList.Dir">
+              <PlistImageFile Name="logo.png" Key="logo.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="logo.png" PListFile="logo.plist" Name=".logo_PList.Dir">
+              <PlistImageFile Name="logo.png" Key="logo.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="ui">
+            <PlistImageFolder Image="common_ui@2x.png" PListFile="common_ui@2x.plist" Name=".common_ui@2x_PList.Dir">
+              <PlistImageFile Name="ui_buttons_button_common_ui_button_close_rect0000.png" Key="ui_buttons_button_common_ui_button_close_rect0000.png" />
+              <PlistImageFile Name="ui_buttons_button_common_ui_button_shadow0000.png" Key="ui_buttons_button_common_ui_button_shadow0000.png" />
+              <PlistImageFile Name="ui_buttons_close_brown_ui_button_close_panel_brown_shape0000.png" Key="ui_buttons_close_brown_ui_button_close_panel_brown_shape0000.png" />
+              <PlistImageFile Name="ui_buttons_close_green_ui_close_btn_close0000.png" Key="ui_buttons_close_green_ui_close_btn_close0000.png" />
+              <PlistImageFile Name="ui_buttons_close_round_ui_close_round_background0000.png" Key="ui_buttons_close_round_ui_close_round_background0000.png" />
+              <PlistImageFile Name="ui_buttons_close_round_ui_close_round_cross0000.png" Key="ui_buttons_close_round_ui_close_round_cross0000.png" />
+              <PlistImageFile Name="ui_buttons_close_yellow_ui_button_close_panel_yellow_shape0000.png" Key="ui_buttons_close_yellow_ui_button_close_panel_yellow_shape0000.png" />
+              <PlistImageFile Name="ui_commons_ui_fontsize_rect0000.png" Key="ui_commons_ui_fontsize_rect0000.png" />
+              <PlistImageFile Name="ui_commons_ui_transparent_rect0000.png" Key="ui_commons_ui_transparent_rect0000.png" />
+              <PlistImageFile Name="ui_images_ui_bubble_10000.png" Key="ui_images_ui_bubble_10000.png" />
+              <PlistImageFile Name="ui_images_ui_bubble_20000.png" Key="ui_images_ui_bubble_20000.png" />
+              <PlistImageFile Name="ui_images_ui_close_btn_shadow0000.png" Key="ui_images_ui_close_btn_shadow0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_cautionmark0000.png" Key="ui_images_ui_image_cautionmark0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_coin_icon_small0000.png" Key="ui_images_ui_image_coin_icon_small0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_energy_icon0000.png" Key="ui_images_ui_image_energy_icon0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_glow0000.png" Key="ui_images_ui_image_glow0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_green_bg0000.png" Key="ui_images_ui_image_green_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_10000.png" Key="ui_images_ui_image_headicon_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_20000.png" Key="ui_images_ui_image_headicon_20000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_30000.png" Key="ui_images_ui_image_headicon_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_3_circle0000.png" Key="ui_images_ui_image_headicon_3_circle0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_infinite_energy0000.png" Key="ui_images_ui_image_infinite_energy0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_leafs_bl0000.png" Key="ui_images_ui_image_leafs_bl0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_leafs_br0000.png" Key="ui_images_ui_image_leafs_br0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_light0000.png" Key="ui_images_ui_image_light0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_lock_ico0000.png" Key="ui_images_ui_image_lock_ico0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_long_separator0000.png" Key="ui_images_ui_image_long_separator0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_npc_10000.png" Key="ui_images_ui_image_npc_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_npc_20000.png" Key="ui_images_ui_image_npc_20000.png" />
+              <PlistImageFile Name="ui_images_ui_image_npc_30000.png" Key="ui_images_ui_image_npc_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_olive_bg0000.png" Key="ui_images_ui_image_olive_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_orange_bg0000.png" Key="ui_images_ui_image_orange_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_10000.png" Key="ui_images_ui_image_rewardclose_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_20000.png" Key="ui_images_ui_image_rewardclose_20000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_30000.png" Key="ui_images_ui_image_rewardclose_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_40000.png" Key="ui_images_ui_image_rewardclose_40000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardopen_10000.png" Key="ui_images_ui_image_rewardopen_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardopen_30000.png" Key="ui_images_ui_image_rewardopen_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardopen_40000.png" Key="ui_images_ui_image_rewardopen_40000.png" />
+              <PlistImageFile Name="ui_images_ui_image_select_10000.png" Key="ui_images_ui_image_select_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_yellow_bg0000.png" Key="ui_images_ui_image_yellow_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_imagel_blinking_star0000.png" Key="ui_images_ui_imagel_blinking_star0000.png" />
+              <PlistImageFile Name="ui_images_ui_images_arrow0000.png" Key="ui_images_ui_images_arrow0000.png" />
+              <PlistImageFile Name="ui_scale9_ui_blank_scale90000.png" Key="ui_scale9_ui_blank_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_brown_down_scale90000.png" Key="ui_scale9_ui_brown_down_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_brown_withoutborder_scale90000.png" Key="ui_scale9_ui_brown_withoutborder_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_button_green_scale90000.png" Key="ui_scale9_ui_button_green_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_dark_brown_scale90000.png" Key="ui_scale9_ui_dark_brown_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_green_withoutborder_scale90000.png" Key="ui_scale9_ui_green_withoutborder_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_border_scale90000.png" Key="ui_scale9_ui_light_border_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_brown_scale90000.png" Key="ui_scale9_ui_light_brown_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_green_scale90000.png" Key="ui_scale9_ui_light_green_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_yellow_scale90000.png" Key="ui_scale9_ui_light_yellow_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_lighter_brown_scale90000.png" Key="ui_scale9_ui_lighter_brown_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_orange_scale90000.png" Key="ui_scale9_ui_orange_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_orange_up_scale90000.png" Key="ui_scale9_ui_orange_up_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_tip_scale90000.png" Key="ui_scale9_ui_tip_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_white_scale90000.png" Key="ui_scale9_ui_white_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_yellow_border_scale90000.png" Key="ui_scale9_ui_yellow_border_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_yellow_green_scale90000.png" Key="ui_scale9_ui_yellow_green_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_yellow_withoutborder_scale90000.png" Key="ui_scale9_ui_yellow_withoutborder_scale90000.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="common_ui.png" PListFile="common_ui.plist" Name=".common_ui_PList.Dir">
+              <PlistImageFile Name="ui_buttons_button_common_ui_button_close_rect0000.png" Key="ui_buttons_button_common_ui_button_close_rect0000.png" />
+              <PlistImageFile Name="ui_buttons_button_common_ui_button_shadow0000.png" Key="ui_buttons_button_common_ui_button_shadow0000.png" />
+              <PlistImageFile Name="ui_buttons_close_brown_ui_button_close_panel_brown_shape0000.png" Key="ui_buttons_close_brown_ui_button_close_panel_brown_shape0000.png" />
+              <PlistImageFile Name="ui_buttons_close_green_ui_close_btn_close0000.png" Key="ui_buttons_close_green_ui_close_btn_close0000.png" />
+              <PlistImageFile Name="ui_buttons_close_round_ui_close_round_background0000.png" Key="ui_buttons_close_round_ui_close_round_background0000.png" />
+              <PlistImageFile Name="ui_buttons_close_round_ui_close_round_cross0000.png" Key="ui_buttons_close_round_ui_close_round_cross0000.png" />
+              <PlistImageFile Name="ui_buttons_close_yellow_ui_button_close_panel_yellow_shape0000.png" Key="ui_buttons_close_yellow_ui_button_close_panel_yellow_shape0000.png" />
+              <PlistImageFile Name="ui_commons_ui_fontsize_rect0000.png" Key="ui_commons_ui_fontsize_rect0000.png" />
+              <PlistImageFile Name="ui_commons_ui_transparent_rect0000.png" Key="ui_commons_ui_transparent_rect0000.png" />
+              <PlistImageFile Name="ui_images_ui_bubble_10000.png" Key="ui_images_ui_bubble_10000.png" />
+              <PlistImageFile Name="ui_images_ui_bubble_20000.png" Key="ui_images_ui_bubble_20000.png" />
+              <PlistImageFile Name="ui_images_ui_close_btn_shadow0000.png" Key="ui_images_ui_close_btn_shadow0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_cautionmark0000.png" Key="ui_images_ui_image_cautionmark0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_coin_icon_small0000.png" Key="ui_images_ui_image_coin_icon_small0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_energy_icon0000.png" Key="ui_images_ui_image_energy_icon0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_glow0000.png" Key="ui_images_ui_image_glow0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_green_bg0000.png" Key="ui_images_ui_image_green_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_10000.png" Key="ui_images_ui_image_headicon_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_20000.png" Key="ui_images_ui_image_headicon_20000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_30000.png" Key="ui_images_ui_image_headicon_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_headicon_3_circle0000.png" Key="ui_images_ui_image_headicon_3_circle0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_infinite_energy0000.png" Key="ui_images_ui_image_infinite_energy0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_leafs_bl0000.png" Key="ui_images_ui_image_leafs_bl0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_leafs_br0000.png" Key="ui_images_ui_image_leafs_br0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_light0000.png" Key="ui_images_ui_image_light0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_lock_ico0000.png" Key="ui_images_ui_image_lock_ico0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_long_separator0000.png" Key="ui_images_ui_image_long_separator0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_npc_10000.png" Key="ui_images_ui_image_npc_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_npc_20000.png" Key="ui_images_ui_image_npc_20000.png" />
+              <PlistImageFile Name="ui_images_ui_image_npc_30000.png" Key="ui_images_ui_image_npc_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_olive_bg0000.png" Key="ui_images_ui_image_olive_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_orange_bg0000.png" Key="ui_images_ui_image_orange_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_10000.png" Key="ui_images_ui_image_rewardclose_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_20000.png" Key="ui_images_ui_image_rewardclose_20000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_30000.png" Key="ui_images_ui_image_rewardclose_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardclose_40000.png" Key="ui_images_ui_image_rewardclose_40000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardopen_10000.png" Key="ui_images_ui_image_rewardopen_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardopen_30000.png" Key="ui_images_ui_image_rewardopen_30000.png" />
+              <PlistImageFile Name="ui_images_ui_image_rewardopen_40000.png" Key="ui_images_ui_image_rewardopen_40000.png" />
+              <PlistImageFile Name="ui_images_ui_image_select_10000.png" Key="ui_images_ui_image_select_10000.png" />
+              <PlistImageFile Name="ui_images_ui_image_yellow_bg0000.png" Key="ui_images_ui_image_yellow_bg0000.png" />
+              <PlistImageFile Name="ui_images_ui_imagel_blinking_star0000.png" Key="ui_images_ui_imagel_blinking_star0000.png" />
+              <PlistImageFile Name="ui_images_ui_images_arrow0000.png" Key="ui_images_ui_images_arrow0000.png" />
+              <PlistImageFile Name="ui_scale9_ui_blank_scale90000.png" Key="ui_scale9_ui_blank_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_brown_down_scale90000.png" Key="ui_scale9_ui_brown_down_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_brown_withoutborder_scale90000.png" Key="ui_scale9_ui_brown_withoutborder_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_button_green_scale90000.png" Key="ui_scale9_ui_button_green_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_dark_brown_scale90000.png" Key="ui_scale9_ui_dark_brown_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_green_withoutborder_scale90000.png" Key="ui_scale9_ui_green_withoutborder_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_border_scale90000.png" Key="ui_scale9_ui_light_border_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_brown_scale90000.png" Key="ui_scale9_ui_light_brown_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_green_scale90000.png" Key="ui_scale9_ui_light_green_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_light_yellow_scale90000.png" Key="ui_scale9_ui_light_yellow_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_lighter_brown_scale90000.png" Key="ui_scale9_ui_lighter_brown_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_orange_scale90000.png" Key="ui_scale9_ui_orange_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_orange_up_scale90000.png" Key="ui_scale9_ui_orange_up_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_tip_scale90000.png" Key="ui_scale9_ui_tip_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_white_scale90000.png" Key="ui_scale9_ui_white_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_yellow_border_scale90000.png" Key="ui_scale9_ui_yellow_border_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_yellow_green_scale90000.png" Key="ui_scale9_ui_yellow_green_scale90000.png" />
+              <PlistImageFile Name="ui_scale9_ui_yellow_withoutborder_scale90000.png" Key="ui_scale9_ui_yellow_withoutborder_scale90000.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Image Name="CloseNormal.png" />
+          <Image Name="CloseSelected.png" />
+          <Folder Name="csb">
+            <File Name="Layer.csb" />
+          </Folder>
+          <Folder Name="fonts">
+            <TTF Name="arial.ttf" />
+            <TTF Name="Marker Felt.ttf" />
+            <TTF Name="fzcy_gbk.ttf" />
+          </Folder>
+          <Image Name="HelloWorld.png" />
+          <File Name="unpack_plist.py" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
